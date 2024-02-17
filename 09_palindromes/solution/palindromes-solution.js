@@ -1,5 +1,7 @@
 const palindromes = function (string) {
   const processedString = string.toLowerCase().replace(/[^a-z0-9]/g, "");
+  
+  //A nut for a jar of tuna. => anutforajaroftuna
   return processedString.split("").reverse().join("") == processedString;
 };
 
